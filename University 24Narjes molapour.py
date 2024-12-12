@@ -88,8 +88,8 @@ ORDER BY
 ''')
 
 results = cursor.fetchall()
-for row in results:
-    print(f"{row[0]} {row[1]} is enrolled in {row[2]} courses.")
+for row1 in results:
+    print(row1)
 
 # Delete 
 cursor.execute('''
