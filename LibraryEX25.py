@@ -54,8 +54,8 @@ class LibrarySystem:
             )
             ''')
             print("Database and tables created successfully.")
-        except Error as e:
-            print(f"Error creating database or tables: {e}")
+        except :
+            print("Error")
 
     def close_connection(self):
         if self.connection.is_connected():
